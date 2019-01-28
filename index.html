@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<title>TWBS &#8211; The White Board Service</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="TWBS &raquo; Feed" href="https://redwan29.github.io/whiteboard/feed/" />
+<link rel="alternate" type="application/rss+xml" title="TWBS &raquo; Comments Feed" href="https://redwan29.github.io/whiteboard/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/redwan29.github.io\/whiteboard\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='astra-theme-css-css'  href='https://redwan29.github.io/whiteboard/wp-content/themes/astra/assets/css/minified/style.min.css?ver=1.6.7' type='text/css' media='all' />
+<style id='astra-theme-css-inline-css' type='text/css'>
+html{font-size:93.75%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3a;}body,button,input,select,textarea{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-weight:inherit;font-size:15px;font-size:1rem;}blockquote{border-color:rgba(2,116,190,0.05);}.site-title{font-size:35px;font-size:2.3333333333333rem;}.ast-archive-description .ast-archive-title{font-size:40px;font-size:2.6666666666667rem;}.site-header .site-description{font-size:15px;font-size:1rem;}.entry-title{font-size:40px;font-size:2.6666666666667rem;}.comment-reply-title{font-size:24px;font-size:1.6rem;}.ast-comment-list #cancel-comment-reply-link{font-size:15px;font-size:1rem;}h1,.entry-content h1{font-size:40px;font-size:2.6666666666667rem;}h2,.entry-content h2{font-size:30px;font-size:2rem;}h3,.entry-content h3{font-size:25px;font-size:1.6666666666667rem;}h4,.entry-content h4{font-size:20px;font-size:1.3333333333333rem;}h5,.entry-content h5{font-size:18px;font-size:1.2rem;}h6,.entry-content h6{font-size:15px;font-size:1rem;}.ast-single-post .entry-title,.page-title{font-size:30px;font-size:2rem;}#secondary,#secondary button,#secondary input,#secondary select,#secondary textarea{font-size:15px;font-size:1rem;}::selection{background-color:#0274be;color:#ffffff;}body,h1,.entry-title a,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content h4,h5,.entry-content h5,h6,.entry-content h6{color:#3a3a3a;}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#ffffff;border-color:#0274be;background-color:#0274be;}.main-header-menu a,.ast-header-custom-item a{color:#3a3a3a;}.main-header-menu li:hover > a,.main-header-menu li:hover > .ast-menu-toggle,.main-header-menu .ast-masthead-custom-menu-items a:hover,.main-header-menu li.focus > a,.main-header-menu li.focus > .ast-menu-toggle,.main-header-menu .current-menu-item > a,.main-header-menu .current-menu-ancestor > a,.main-header-menu .current_page_item > a,.main-header-menu .current-menu-item > .ast-menu-toggle,.main-header-menu .current-menu-ancestor > .ast-menu-toggle,.main-header-menu .current_page_item > .ast-menu-toggle{color:#0274be;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:#0274be;}input[type="radio"]:checked,input[type=reset],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type=range]::-webkit-slider-thumb{border-color:#0274be;background-color:#0274be;box-shadow:none;}.site-footer a:hover + .post-count,.site-footer a:focus + .post-count{background:#0274be;border-color:#0274be;}.footer-adv .footer-adv-overlay{border-top-style:solid;border-top-color:#7a7a7a;}.ast-comment-meta{line-height:1.666666667;font-size:12px;font-size:0.8rem;}.single .nav-links .nav-previous,.single .nav-links .nav-next,.single .ast-author-details .author-title,.ast-comment-meta{color:#0274be;}.menu-toggle,button,.ast-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{border-radius:2px;padding:10px 40px;color:#ffffff;border-color:#0274be;background-color:#0274be;}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.button:hover,input[type=reset]:hover,input[type=reset]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#ffffff;border-color:#3a3a3a;background-color:#3a3a3a;}.entry-meta,.entry-meta *{line-height:1.45;color:#0274be;}.entry-meta a:hover,.entry-meta a:hover *,.entry-meta a:focus,.entry-meta a:focus *{color:#3a3a3a;}blockquote,blockquote a{color:#000000;}.ast-404-layout-1 .ast-404-text{font-size:200px;font-size:13.333333333333rem;}.widget-title{font-size:21px;font-size:1.4rem;color:#3a3a3a;}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:#0274be;}.secondary .calendar_wrap #today,.ast-progress-val span{background:#0274be;}.secondary a:hover + .post-count,.secondary a:focus + .post-count{background:#0274be;border-color:#0274be;}.calendar_wrap #today > a{color:#ffffff;}.ast-pagination a,.page-links .page-link,.single .post-navigation a{color:#0274be;}.ast-pagination a:hover,.ast-pagination a:focus,.ast-pagination > span:hover:not(.dots),.ast-pagination > span.current,.page-links > .page-link,.page-links .page-link:hover,.post-navigation a:hover{color:#3a3a3a;}.ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle{background:transparent;color:#0274be;}.ast-header-break-point .ast-mobile-menu-buttons-outline.menu-toggle{background:transparent;border:1px solid #0274be;color:#0274be;}.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle{background:#0274be;}@media (min-width:545px){.ast-page-builder-template .comments-area,.single.ast-page-builder-template .entry-header,.single.ast-page-builder-template .post-navigation{max-width:1240px;margin-left:auto;margin-right:auto;}}@media (max-width:768px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1{font-size:30px;}h2,.entry-content h2{font-size:25px;}h3,.entry-content h3{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:544px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1{font-size:30px;}h2,.entry-content h2{font-size:25px;}h3,.entry-content h3{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:768px){html{font-size:85.5%;}}@media (max-width:544px){html{font-size:85.5%;}}@media (min-width:769px){.ast-container{max-width:1240px;}}@font-face {font-family: "Astra";src: url( https://redwan29.github.io/whiteboard/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url( https://redwan29.github.io/whiteboard/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url( https://redwan29.github.io/whiteboard/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");font-weight: normal;font-style: normal;}@media (max-width:921px) {.main-header-bar .main-header-bar-navigation{display:none;}}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children,.ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper{border-color:#0274be;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children{border-top-width:2px;border-right-width:0px;border-left-width:0px;border-bottom-width:0px;border-style:solid;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children .children{top:-2px;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu a,.ast-desktop .main-header-menu.submenu-with-border .children a{border-bottom-width:0px;border-style:solid;border-color:#eaeaea;}@media (min-width:769px){.main-header-menu .sub-menu li.ast-left-align-sub-menu:hover > ul,.main-header-menu .sub-menu li.ast-left-align-sub-menu.focus > ul{margin-left:-0px;}}.ast-small-footer{border-top-style:solid;border-top-width:1px;border-top-color:#7a7a7a;}.ast-small-footer-wrap{text-align:center;}@media (max-width:920px){.ast-404-layout-1 .ast-404-text{font-size:100px;font-size:6.6666666666667rem;}}
+.ast-header-break-point .site-header{border-bottom-width:1px;}@media (min-width:769px){.main-header-bar{border-bottom-width:1px;}}.main-header-menu .menu-item, .main-header-bar .ast-masthead-custom-menu-items{-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}.main-header-menu > .menu-item > a{height:100%;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-js-display:flex;display:flex;}
+@media (min-width:769px){.ast-theme-transparent-header #masthead{position:absolute;left:0;right:0;}.ast-theme-transparent-header .main-header-bar, .ast-theme-transparent-header.ast-header-break-point .main-header-bar{background:none;}body.elementor-editor-active.ast-theme-transparent-header #masthead, .fl-builder-edit .ast-theme-transparent-header #masthead, body.vc_editor.ast-theme-transparent-header #masthead{z-index:0;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .ast-mobile-header-logo{display:none;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .transparent-custom-logo .custom-logo{display:inline-block;}.ast-theme-transparent-header .ast-above-header{background-image:none;background-color:transparent;}.ast-theme-transparent-header .ast-below-header{background-image:none;background-color:transparent;}}@media (max-width:768px){.ast-theme-transparent-header #masthead{position:absolute;left:0;right:0;}.ast-theme-transparent-header .main-header-bar, .ast-theme-transparent-header.ast-header-break-point .main-header-bar{background:none;}body.elementor-editor-active.ast-theme-transparent-header #masthead, .fl-builder-edit .ast-theme-transparent-header #masthead, body.vc_editor.ast-theme-transparent-header #masthead{z-index:0;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .ast-mobile-header-logo{display:none;}.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .transparent-custom-logo .custom-logo{display:inline-block;}.ast-theme-transparent-header .ast-above-header{background-image:none;background-color:transparent;}.ast-theme-transparent-header .ast-below-header{background-image:none;background-color:transparent;}}.ast-theme-transparent-header .main-header-bar, .ast-theme-transparent-header .site-header{border-bottom-width:0;}
+</style>
+<link rel='stylesheet' id='astra-menu-animation-css'  href='https://redwan29.github.io/whiteboard/wp-content/themes/astra/assets/css/minified/menu-animation.min.css?ver=1.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://redwan29.github.io/whiteboard/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://redwan29.github.io/whiteboard/wp-content/uploads/elementor/css/global.css?ver=1548703204' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-61-css'  href='https://redwan29.github.io/whiteboard/wp-content/uploads/elementor/css/post-61.css?ver=1548704392' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlayfair+Display%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat+Alternates%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.0.3' type='text/css' media='all' />
+<!--[if IE]>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=1.6.7'></script>
+<script type='text/javascript'>
+flexibility(document.documentElement);
+</script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://redwan29.github.io/whiteboard/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://redwan29.github.io/whiteboard/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://redwan29.github.io/whiteboard/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<link rel="canonical" href="https://redwan29.github.io/whiteboard/" />
+<link rel='shortlink' href='https://redwan29.github.io/whiteboard/' />
+<link rel="alternate" type="application/json+oembed" href="https://redwan29.github.io/whiteboard/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fredwan29.github.io%2Fwhiteboard%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://redwan29.github.io/whiteboard/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fredwan29.github.io%2Fwhiteboard%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/favicon-32x32.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/favicon-32x32.png" />
+<meta name="msapplication-TileImage" content="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/favicon-32x32.png" />
+</head>
+
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="home page-template-default page page-id-61 ast-desktop ast-page-builder-template ast-no-sidebar astra-1.6.7 ast-header-custom-item-inside ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-page elementor-page-61">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+	
+		<header itemtype="https://schema.org/WPHeader" itemscope="itemscope" id="masthead" class="site-header ast-primary-submenu-animation-fade header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-hide-custom-menu-mobile ast-menu-toggle-icon ast-mobile-header-inline" role="banner">
+
+			
+			
+<div class="main-header-bar-wrap">
+	<div class="main-header-bar">
+				<div class="ast-container">
+
+			<div class="ast-flex main-header-container">
+				
+		<div class="site-branding">
+			<div class="ast-site-identity" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div class="ast-site-title-wrap">
+							<h1 class="site-title" itemprop="name">
+					<a href="https://redwan29.github.io/whiteboard/" rel="home" itemprop="url" >
+						TWBS
+					</a>
+				</h1>
+							<p class="site-description" itemprop="description">
+					The White Board Service
+				</p>
+						</div>			</div>
+		</div>
+
+		<!-- .site-branding -->
+				<div class="ast-mobile-menu-buttons">
+
+			
+					<div class="ast-button-wrap">
+			<button type="button" class="menu-toggle main-header-menu-toggle  ast-mobile-menu-buttons-minimal" rel="main-menu" aria-controls='primary-menu' aria-expanded='false'>
+				<span class="screen-reader-text">Main Menu</span>
+				<span class="menu-toggle-icon"></span>
+							</button>
+		</div>
+			
+			
+		</div>
+			<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" id="site-navigation" class="ast-flex-grow-1" role="navigation" aria-label="Site Navigation"><div class="main-navigation"><ul id="primary-menu" class="main-header-menu ast-nav-menu ast-flex ast-justify-content-flex-end  submenu-with-border astra-menu-animation-fade"><li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-61 current_page_item menu-item-205"><a href="https://redwan29.github.io/whiteboard/">Home</a></li>
+<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-194"><a href="https://redwan29.github.io/whiteboard/about/">About</a><button class="ast-menu-toggle" role="button" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button>
+<ul class="sub-menu">
+	<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="https://redwan29.github.io/whiteboard/our-team/">Our Team</a></li>
+	<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://redwan29.github.io/whiteboard/process-and-pricing/">Process and Pricing</a></li>
+</ul>
+</li>
+<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-204"><a href="https://redwan29.github.io/whiteboard/videos/">Videos</a><button class="ast-menu-toggle" role="button" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button>
+<ul class="sub-menu">
+	<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="https://redwan29.github.io/whiteboard/animated-training-videos/">Animated Training Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-199"><a href="https://redwan29.github.io/whiteboard/our-work/">Our Work</a><button class="ast-menu-toggle" role="button" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button>
+<ul class="sub-menu">
+	<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="https://redwan29.github.io/whiteboard/case-studies/">Case Studies</a></li>
+	<li id="menu-item-203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203"><a href="https://redwan29.github.io/whiteboard/testimonials/">Testimonials</a></li>
+</ul>
+</li>
+<li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-202"><a href="https://redwan29.github.io/whiteboard/resources/">Resources</a><button class="ast-menu-toggle" role="button" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span></button>
+<ul class="sub-menu">
+	<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="https://redwan29.github.io/whiteboard/blog/">Blog</a></li>
+	<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="https://redwan29.github.io/whiteboard/podcast/">Podcast</a></li>
+</ul>
+</li>
+</ul></div></nav></div></div>			</div><!-- Main Header Container -->
+		</div><!-- ast-row -->
+			</div> <!-- Main Header Bar -->
+</div> <!-- Main Header Bar Wrap -->
+
+			
+		</header><!-- #masthead -->
+		
+	
+	
+	<div id="content" class="site-content">
+
+		<div class="ast-container">
+
+		
+
+	<div id="primary" class="content-area primary">
+
+		
+					<main id="main" class="site-main" role="main">
+
+				
+					
+					
+
+<article itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-61" class="post-61 page type-page status-publish ast-article-single">
+
+	
+	<header class="entry-header ast-header-without-markup">
+
+		
+			</header><!-- .entry-header -->
+
+	<div class="entry-content clear" itemprop="text">
+
+		
+				<div data-elementor-type="post" data-elementor-id="61" class="elementor elementor-61" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section data-id="204e0873" class="elementor-element elementor-element-204e0873 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="9e8b4bb" class="elementor-element elementor-element-9e8b4bb elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="521d730c" class="elementor-element elementor-element-521d730c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="abb0710" class="elementor-element elementor-element-abb0710 animated fadeIn elementor-invisible elementor-column elementor-col-50 elementor-top-column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="7cd4018" class="elementor-element elementor-element-7cd4018 animated zoomIn elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">Your White Board Story</h2>		</div>
+				</div>
+				<div data-id="01777da" class="elementor-element elementor-element-01777da animated zoomIn elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This 8 hour course will teach you all the required skills needed when designing and developing a live WordPress website, including using the advanced options of HTML and CSS.</p></div>
+				</div>
+				</div>
+				<div data-id="f0dd471" class="elementor-element elementor-element-f0dd471 elementor-align-left animated fadeInUp elementor-invisible elementor-widget elementor-widget-button" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-element_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Learn more</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="5f654bce" class="elementor-element elementor-element-5f654bce animated fadeInRight elementor-invisible elementor-column elementor-col-50 elementor-top-column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="1c5097bc" class="elementor-element elementor-element-1c5097bc elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-settings="{&quot;aspect_ratio&quot;:&quot;169&quot;}" data-element_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<iframe class="elementor-video-iframe" allowfullscreen src="https://www.youtube.com/embed/XHOmBV4js_E?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;modestbranding=0"></iframe>		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="3cf8e06" class="elementor-element elementor-element-3cf8e06 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="64e1a134" class="elementor-element elementor-element-64e1a134 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="4038fbbe" class="elementor-element elementor-element-4038fbbe animated fadeIn elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">How We Show Others Your Ideas</h4>		</div>
+				</div>
+				<div data-id="a90397c" class="elementor-element elementor-element-a90397c animated fadeInDown elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p></div>
+				</div>
+				</div>
+				<section data-id="6c5fb7c1" class="elementor-element elementor-element-6c5fb7c1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="4a92fedc" class="elementor-element elementor-element-4a92fedc elementor-column elementor-col-100 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="3ead1b5a" class="elementor-element elementor-element-3ead1b5a elementor-align-center animated fadeIn elementor-invisible elementor-widget elementor-widget-button" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-element_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Read More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="5a1936a3" class="elementor-element elementor-element-5a1936a3 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="52c32e7" class="elementor-element elementor-element-52c32e7 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="170e5078" class="elementor-element elementor-element-170e5078 animated fadeIn elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-xl">THE WHITE BOARD DIFFERENCE</h1>		</div>
+				</div>
+				<section data-id="41eba128" class="elementor-element elementor-element-41eba128 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+				<div class="elementor-row">
+				<div data-id="2c6e53cf" class="elementor-element elementor-element-2c6e53cf elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="3b325db8" class="elementor-element elementor-element-3b325db8 animated fadeInLeft elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+				<i class="fa fa-calendar" aria-hidden="true"></i>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="2167ac73" class="elementor-element elementor-element-2167ac73 animated fadeInLeft elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Schedule on the fly</h3>		</div>
+				</div>
+				<div data-id="9ca6947" class="elementor-element elementor-element-9ca6947 animated fadeInLeft elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+				</div>
+				</div>
+				<div data-id="6d06609b" class="elementor-element elementor-element-6d06609b animated fadeInLeft elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+				<i class="fa fa-dropbox" aria-hidden="true"></i>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="398ebf20" class="elementor-element elementor-element-398ebf20 animated fadeInLeft elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Save everything to dropbox</h3>		</div>
+				</div>
+				<div data-id="4c7b3dda" class="elementor-element elementor-element-4c7b3dda animated fadeInLeft elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+				</div>
+				</div>
+				<div data-id="e58f3ff" class="elementor-element elementor-element-e58f3ff animated fadeInLeft elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+				<i class="fa fa-empire" aria-hidden="true"></i>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="b03568d" class="elementor-element elementor-element-b03568d animated fadeInLeft elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Save everything to dropbox</h3>		</div>
+				</div>
+				<div data-id="621ba13" class="elementor-element elementor-element-621ba13 animated fadeInLeft elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Duis pulvinar arcu a ultrices monk dapibus. Etiam suscipit sed quam vel auctor.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="63b14c1b" class="elementor-element elementor-element-63b14c1b elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="187d721c" class="elementor-element elementor-element-187d721c animated fadeInRight elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+				<i class="fa fa-commenting-o" aria-hidden="true"></i>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="3072cb02" class="elementor-element elementor-element-3072cb02 animated fadeInRight elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Take notes and reminders</h3>		</div>
+				</div>
+				<div data-id="418184e3" class="elementor-element elementor-element-418184e3 animated fadeInRight elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+				</div>
+				</div>
+				<div data-id="3da43f3d" class="elementor-element elementor-element-3da43f3d animated fadeInRight elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+				<i class="fa fa-envelope-o" aria-hidden="true"></i>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="7f03309" class="elementor-element elementor-element-7f03309 animated fadeInRight elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Take control over messages</h3>		</div>
+				</div>
+				<div data-id="195ce325" class="elementor-element elementor-element-195ce325 animated fadeInRight elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>blandit porta, viverra nec metus. Maecenas in magna ullamcorper dolor commodo.</p></div>
+				</div>
+				</div>
+				<div data-id="8c308b8" class="elementor-element elementor-element-8c308b8 animated fadeInRight elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+				<i class="fa fa-envira" aria-hidden="true"></i>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="cd21d51" class="elementor-element elementor-element-cd21d51 animated fadeInRight elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Take control over messages</h3>		</div>
+				</div>
+				<div data-id="666d854" class="elementor-element elementor-element-666d854 animated fadeInRight elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>blandit porta, viverra nec metus. Maecenas in magna ullamcorper dolor commodo.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="1c7e4212" class="elementor-element elementor-element-1c7e4212 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="3640e0d4" class="elementor-element elementor-element-3640e0d4 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="7df9dbe3" class="elementor-element elementor-element-7df9dbe3 elementor-widget elementor-widget-heading" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Our Clients</h4>		</div>
+				</div>
+				<section data-id="1d6618e6" class="elementor-element elementor-element-1d6618e6 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="9af27bb" class="elementor-element elementor-element-9af27bb elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="3c93da17" class="elementor-element elementor-element-3c93da17 elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/armond.png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="39ff6ebb" class="elementor-element elementor-element-39ff6ebb elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="6b882c32" class="elementor-element elementor-element-6b882c32 elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/bastil.png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="3e9eecc7" class="elementor-element elementor-element-3e9eecc7 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="7cedb3ee" class="elementor-element elementor-element-7cedb3ee elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/bolier.png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="3878b604" class="elementor-element elementor-element-3878b604 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="3cdf303e" class="elementor-element elementor-element-3cdf303e elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/digit.png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="22f3f662" class="elementor-element elementor-element-22f3f662 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="58e48e57" class="elementor-element elementor-element-58e48e57 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="8bbaee9" class="elementor-element elementor-element-8bbaee9 elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/darkside.png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="1f7fb842" class="elementor-element elementor-element-1f7fb842 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="4dd8c300" class="elementor-element elementor-element-4dd8c300 elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/fifthflour.png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="1adabb5" class="elementor-element elementor-element-1adabb5 elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="4c88d2c9" class="elementor-element elementor-element-4c88d2c9 elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/Modal...png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="1960c2bc" class="elementor-element elementor-element-1960c2bc elementor-column elementor-col-25 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="6bc49de6" class="elementor-element elementor-element-6bc49de6 elementor-widget elementor-widget-image" data-element_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="150" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/madrin.png" class="attachment-large size-large" alt="" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="1b6b3771" class="elementor-element elementor-element-1b6b3771 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="5d0fa07e" class="elementor-element elementor-element-5d0fa07e elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="10fa3742" class="elementor-element elementor-element-10fa3742 elementor-widget elementor-widget-heading" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Testimonials</h4>		</div>
+				</div>
+				<section data-id="1b88b2c8" class="elementor-element elementor-element-1b88b2c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="5689242f" class="elementor-element elementor-element-5689242f elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="7299cf83" class="elementor-element elementor-element-7299cf83 elementor-widget elementor-widget-testimonial" data-element_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper elementor-testimonial-text-align-center">
+							<div class="elementor-testimonial-content">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img width="400" height="400" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y12.png" class="attachment-full size-full" alt="" srcset="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y12.png 400w, https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y12-150x150.png 150w, https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y12-300x300.png 300w" sizes="(max-width: 400px) 100vw, 400px" />						</div>
+					
+										<div class="elementor-testimonial-details">
+													<div class="elementor-testimonial-name">Adam Sendler</div>
+																			<div class="elementor-testimonial-job">Designer</div>
+											</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="7861e7e3" class="elementor-element elementor-element-7861e7e3 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="263311c6" class="elementor-element elementor-element-263311c6 elementor-widget elementor-widget-testimonial" data-element_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper elementor-testimonial-text-align-center">
+							<div class="elementor-testimonial-content">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img width="400" height="400" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y10.png" class="attachment-full size-full" alt="" srcset="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y10.png 400w, https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y10-150x150.png 150w, https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y10-300x300.png 300w" sizes="(max-width: 400px) 100vw, 400px" />						</div>
+					
+										<div class="elementor-testimonial-details">
+													<div class="elementor-testimonial-name">Mila Kunis</div>
+																			<div class="elementor-testimonial-job">Manager</div>
+											</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="5220ed92" class="elementor-element elementor-element-5220ed92 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="2fe06c34" class="elementor-element elementor-element-2fe06c34 elementor-widget elementor-widget-testimonial" data-element_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper elementor-testimonial-text-align-center">
+							<div class="elementor-testimonial-content">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img width="400" height="400" src="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y11.png" class="attachment-full size-full" alt="" srcset="https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y11.png 400w, https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y11-150x150.png 150w, https://redwan29.github.io/whiteboard/wp-content/uploads/2019/01/y11-300x300.png 300w" sizes="(max-width: 400px) 100vw, 400px" />						</div>
+					
+										<div class="elementor-testimonial-details">
+													<div class="elementor-testimonial-name">Mike Sendler</div>
+																			<div class="elementor-testimonial-job">Support</div>
+											</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="60d5bff9" class="elementor-element elementor-element-60d5bff9 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="37027626" class="elementor-element elementor-element-37027626 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="254ecd77" class="elementor-element elementor-element-254ecd77 elementor-widget elementor-widget-heading" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Contact</h5>		</div>
+				</div>
+				<div data-id="2d805c7a" class="elementor-element elementor-element-2d805c7a animated pulse elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">For any inquiries please email</h4>		</div>
+				</div>
+				<div data-id="53c37033" class="elementor-element elementor-element-53c37033 animated zoomIn elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Contact@company.com</h4>		</div>
+				</div>
+				<div data-id="4ef509f3" class="elementor-element elementor-element-4ef509f3 elementor-shape-square animated fadeInLeft elementor-invisible elementor-widget elementor-widget-social-icons" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-element_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper">
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow" href="" target="_blank">
+					<span class="elementor-screen-only">Facebook</span>
+					<i class="fa fa-facebook"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-grow" href="" target="_blank">
+					<span class="elementor-screen-only">Twitter</span>
+					<i class="fa fa-twitter"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-google-plus elementor-animation-grow" href="" target="_blank">
+					<span class="elementor-screen-only">Google-plus</span>
+					<i class="fa fa-google-plus"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow" href="" target="_blank">
+					<span class="elementor-screen-only">Youtube</span>
+					<i class="fa fa-youtube"></i>
+				</a>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="1200a5b0" class="elementor-element elementor-element-1200a5b0 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="70748760" class="elementor-element elementor-element-70748760 animated pulse elementor-invisible elementor-widget elementor-widget-google_maps" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;}" data-element_type="google_maps.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=18&amp;output=embed&amp;iwloc=near" aria-label="London Eye, London, United Kingdom"></iframe></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section data-id="4560039" class="elementor-element elementor-element-4560039 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wider">
+				<div class="elementor-row">
+				<div data-id="aa0ba04" class="elementor-element elementor-element-aa0ba04 elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="dd1e6c6" class="elementor-element elementor-element-dd1e6c6 animated slideInDown elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;slideInDown&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">The White Board Service</h3>		</div>
+				</div>
+				<div data-id="0f14e4f" class="elementor-element elementor-element-0f14e4f animated slideInUp elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>3025 E 3300 South Suite D,<br />Salt Lake City, Utah 84109<br />Email: <strong><a style="color: #ff781e;" href="#">team@thewhiteboard.com</a></strong><br />Phone: <strong><a style="color: #ff781e;" href="#">844-619-999</a></strong></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="bb0d72d" class="elementor-element elementor-element-bb0d72d elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="8866a27" class="elementor-element elementor-element-8866a27 animated slideInDown elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;slideInDown&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Our mission</h3>		</div>
+				</div>
+				<div data-id="b7b96f0" class="elementor-element elementor-element-b7b96f0 animated slideInUp elementor-invisible elementor-widget elementor-widget-text-editor" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}" data-element_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Etiam fringilla lobortis risus, sed accumsan enim rutrum vel. Aenean iaculis magna libero, at blandit augue rhoncus sed.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="db461bc" class="elementor-element elementor-element-db461bc elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="0f3f8cc" class="elementor-element elementor-element-0f3f8cc animated slideInDown elementor-invisible elementor-widget elementor-widget-heading" data-settings="{&quot;_animation&quot;:&quot;slideInDown&quot;}" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-large">Our offer</h3>		</div>
+				</div>
+				<div data-id="2aaa87f" class="elementor-element elementor-element-2aaa87f elementor-align-left animated slideInUp elementor-invisible elementor-widget elementor-widget-icon-list" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}" data-element_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">sed accumsan enim rutrum </span>
+									</li>
+								<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Etiam fringilla lobortis</span>
+									</li>
+								<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Etiam fringilla lobortis</span>
+									</li>
+								<li class="elementor-icon-list-item" >
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Aenean iaculis magna </span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+		
+		
+	</div><!-- .entry-content .clear -->
+
+	
+	
+</article><!-- #post-## -->
+
+
+					
+					
+				
+			</main><!-- #main -->
+			
+		
+	</div><!-- #primary -->
+
+
+			
+			</div> <!-- ast-container -->
+
+		</div><!-- #content -->
+
+		
+		
+		
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" class="site-footer" role="contentinfo">
+
+			
+			
+<div class="ast-small-footer footer-sml-layout-1">
+	<div class="ast-footer-overlay">
+		<div class="ast-container">
+			<div class="ast-small-footer-wrap" >
+									<div class="ast-small-footer-section ast-small-footer-section-1" >
+						Copyright © 2019 <span class="ast-footer-site-title">TWBS</span>					</div>
+				
+				
+			</div><!-- .ast-row .ast-small-footer-wrap -->
+		</div><!-- .ast-container -->
+	</div><!-- .ast-footer-overlay -->
+</div><!-- .ast-small-footer-->
+
+			
+		</footer><!-- #colophon -->
+		
+		
+	</div><!-- #page -->
+
+	
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var astra = {"break_point":"921","isRtl":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-content/themes/astra/assets/js/minified/style.min.js?ver=1.6.7'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/js/frontend-modules.js?ver=2.4.4'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.1'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js?ver=4.4.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":"","breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.4.4","urls":{"assets":"https:\/\/redwan29.github.io\/whiteboard\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":61,"title":"Home","excerpt":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://redwan29.github.io/whiteboard/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.4.4'></script>
+
+	</body>
+</html>
